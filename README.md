@@ -1,25 +1,9 @@
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
 <!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
+
 [![Forks][forks-shield]][forks-url]
-[![Issues][issues-shield]][https://github.com/mdastgheib/Icarus-Discord-Bot/issues]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/mdast/]
+[![Issues][issues-shield]]["https://github.com/mdastgheib/Icarus-Discord-Bot/issues"]
+[![LinkedIn][linkedin-shield]]["https://www.linkedin.com/in/mdast/"]
 
 
 
@@ -35,7 +19,7 @@
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/mdastgheib/Icarus-Discord-Bot"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a>
@@ -89,14 +73,9 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Python](https://www.python.org/)
+* [AlphaVantage](https://www.alphavantage.co/)
+* [CoinMarketCap](https://coinmarketcap.com/api/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
