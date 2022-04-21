@@ -21,7 +21,7 @@ class generalCommands(commands.Cog):
         embed.add_field(name = '\U0001F4A1 **General Commands**', value = '```!help```', inline = False)
         embed.add_field(name = ':musical_note: Music Commands', value =  '```!join```' '```!leave```' '```!play <song>```' '```!stop```' '```!resume```' '```!pause```' '```!add```' '```!remove```' '```!clear```', inline = True)
         embed.add_field(name = '\U0001F4A1 **Crypto Tracking**', value = '```!cPrice <ticker>```' '```!gas```' , inline = False)
-        embed.add_field(name = '\U0001F4A1 **Stock Tracking**', value = '```!sPrice <ticker>```' , inline = False)
+        embed.add_field(name = '\U0001F4A1 **Stock Tracking**', value = '```!sPrice <ticker>```' '```!cashflow <ticker>```' '```!daily <ticker>```' '```!weekly <ticker>```' '```!monthly <ticker>```' , inline = False)
         embed.add_field(name = '\U0001F4A1 **Special Commands**', value = '```!conversion <currency> <currency>```' '```!poll <question>, <option1>, <option2>```' '```!ping```' '```!meme```' '```!quote```', inline = True)
         await ctx.send(embed = embed)
 

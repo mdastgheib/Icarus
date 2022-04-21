@@ -5,7 +5,6 @@ from cogs.tradingCommands import tradingCommands
 from cogs.generalCommands import generalCommands
 from cogs.MusicCommands import MusicCommands
 from cogs.otherCommands import otherCommands
-#from cogs.reminderCommands import reminderCommands
 import discord
 from Logger import logger
 from discord.ext import commands
@@ -34,7 +33,7 @@ class BotInitialization(commands.Bot):
         
         for server in bot.guilds:
             print('\nCurrent Servers logged into:', server.name)
-            await server.system_channel.send('Hey there, ' + server.name + '! Im now online!')
+            #await server.system_channel.send('Hey there, ' + server.name + '! Im now online!')
 
         # Changing the bot's status
         botStatusMessage = discord.Game('!help')
@@ -50,7 +49,6 @@ class BotInitialization(commands.Bot):
     bot.add_cog(MusicCommands(bot))
     bot.add_cog(tradingCommands(bot))
     bot.add_cog(otherCommands(bot))
-    # bot.add_cog(reminderCommands(bot))
 
 def main():
     try:
