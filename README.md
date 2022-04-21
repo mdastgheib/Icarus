@@ -143,7 +143,7 @@ Current Music Commands:
 - !leave
   
 Current misc. commands:
-- !poll <question>, <option1>, <option2>, ...
+- !poll 
 - !quote
 - !meme
  
