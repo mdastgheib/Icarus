@@ -9,7 +9,7 @@ import itertools
 import sys
 import traceback
 from async_timeout import timeout
-from functools import partial
+from functools import partial 
 import youtube_dl
 from youtube_dl import YoutubeDL
 import requests
@@ -56,34 +56,6 @@ class tempCommands(commands.Cog):
     @commands.command()
     async def ping(self, ctx):
         await ctx.send('Pong!')
-
-         # Create a command that plays a sound from the local filesystem
-    @commands.command(name='moan', description="plays a song from the local filesystem")
-    # the file is named 'moan.mp3' and is located in folder 'Sounds'
-    async def moan(self, ctx):
-         # Gets the player
-        member = ctx.author
-        voiceClient = ctx.voice_client
-        channel = ctx.author.voice.channel
-        # Checks if the player is playing, if not it will send a message to the user saying that the music is not playing or not connected to a voice channel
-        if not voiceClient or not voiceClient.is_connected():
-            embed = discord.Embed(title="", description="I'm not connected to a voice channel, joining now.", color=discord.Color.green())
-            await ctx.send(embed=embed)
-            # Join the voice channel
-            await channel.connect()
-        else:
-            try:
-                await voiceClient.move_to(channel)
-            except asyncio.TimeoutError:
-                raise VoiceConnectionError(f'Moving to channel: <{channel}> timed out.')
-
-
-        # Play the file using ffmpeg
-        source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio('/home/moses/DiscordBot/Icarus/Sounds/moan.mp3'))
-        voiceClient.play(source, after=lambda e: print('Player error: %s' % e) if e else None)
-        if (random.randint(0, 1) == 0):
-            await ctx.message.add_reaction('😊')
-        await ctx.send('Moaning for **{0.name}**.... :blush:'.format(member))
 
     @commands.command(name='quote', description="gets a random quote")
     async def quote(self, ctx):

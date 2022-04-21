@@ -6,6 +6,7 @@ from cogs.CryptoCommands import CryptoCommands
 from cogs.tempCommands import tempCommands
 from cogs.MusicCommands import MusicCommands
 from cogs.reminderCommands import reminderCommands
+from cogs.otherCommands import otherCommands
 import discord
 from Logger import logger
 from discord.ext import commands
@@ -51,6 +52,7 @@ class BotInitialization(commands.Bot):
     bot.add_cog(MusicCommands(bot))
     bot.add_cog(CryptoCommands(bot))
     bot.add_cog(reminderCommands(bot))
+    bot.add_cog(otherCommands(bot))
 
 '''
     @bot.command()
