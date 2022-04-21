@@ -49,10 +49,8 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -82,31 +80,37 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This is a simple python program installation. See the requirements needed in requirements.txt.
+Run the program with python3 bot.py. Ensure that all proper libraries are installed in the respective directory.
 
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* pip3
   ```sh
-  npm install npm@latest -g
+  pip3 install matplotlib
+  pip3 install <example here>
   ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Get your free API keys from the links above, and store them in a config.json file
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/mdastgheib/Icarus-Discord-Bot.git
    ```
-3. Install NPM packages
+3. Install Python packages
    ```sh
-   npm install
+   pip3 install matplotlib
+   pip3 install numpy
+   pip3 install youtubedl
+   etc..
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+4. Create a file named config.json and enter the following information in `config.json`
+   ```json
+   "discord_token": "token here",
+   "coinmarketcap_api_key": "api key here",
+   "alpha_vantage_api_key": "api key here",
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -127,12 +131,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Reminder System for user reminders
+- [ ] Currency Conversion with defined values (USD -> CAD 100)
+- [ ] (Possible) Video Streaming Feature
+    - [ ] Requires a secondary discord account. May or may not complete.
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/mdastgheib/Icarus-Discord-Bot/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -143,7 +147,8 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+If you have a suggestion that would make this better, please fork the repo and create a pull request. 
+You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
@@ -153,8 +158,6 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- LICENSE -->
 ## License
