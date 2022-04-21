@@ -60,14 +60,15 @@
 ## About The Project
 
 
-[![!sPrice Command][stockPrice-screenshot]]
-[![!cPrice Command][cryptoPrice-screenshot]]
-[![!cashflow Command][cashflow-screenshot]]
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+![!sPrice Command][stockPrice-screenshot]
+![!cPrice Command][cryptoPrice-screenshot]
+![!cashflow Command][cashflow-screenshot]
+
+
+Above are a few screenshots bot usages, the commands are seen within the screenshot alongside the data returned.
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 ### Built With
 
