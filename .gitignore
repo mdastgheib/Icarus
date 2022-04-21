@@ -2,7 +2,7 @@
 .env
 /.env
 *.env
-
 config.json
-otherCommands.py
 *config
+otherCommands.py
+oldCode.py

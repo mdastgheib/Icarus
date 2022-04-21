@@ -79,12 +79,6 @@ class YTDLSource(discord.PCMVolumeTransformer):
 
 
 class MusicPlayer:
-    """A class which is assigned to each guild using the bot for Music.
-    This class implements a queue and loop, which allows for different guilds to listen to different playlists
-    simultaneously.
-    When the bot disconnects from the Voice it's instance will be destroyed.
-    """
-
     __slots__ = ('bot', '_guild', '_channel', '_cog', 'queue', 'next', 'current', 'np', 'volume')
 
     def __init__(self, ctx):
@@ -464,39 +458,3 @@ class MusicCommands(commands.Cog):
         embed = discord.Embed(title="", description=f"[{voiceClient.source.title}]({voiceClient.source.web_url}) [{voiceClient.source.requester.mention}] | `{duration}`", color=discord.Color.green())
         embed.set_author(icon_url=self.bot.user.avatar_url, name=f"Now Playing 🎶")
         await ctx.send(embed=embed)
-
-
-
-'''
-# Unecessary commaand for volumne control, users defined their own volume
-    @commands.command(name='volume', aliases=['vol', 'v'], description="changes Kermit's volume")
-    async def change_volume(self, ctx, *, vol: float=None):
-        """Change the player volume.
-        Parameters
-        ------------
-        volume: float or int [Required]
-            The volume to set the player to in percentage. This must be between 1 and 100.
-        """
-        voiceClient = ctx.voice_client
-
-        if not voiceClient or not voiceClient.is_connected():
-            embed = discord.Embed(title="", description="I am not currently connected to voice", color=discord.Color.green())
-            return await ctx.send(embed=embed)
-        
-        if not vol:
-            embed = discord.Embed(title="", description=f"🔊 **{(voiceClient.source.volume)*100}%**", color=discord.Color.green())
-            return await ctx.send(embed=embed)
-
-        if not 0 < vol < 101:
-            embed = discord.Embed(title="", description="Please enter a value between 1 and 100", color=discord.Color.green())
-            return await ctx.send(embed=embed)
-
-        player = self.get_player(ctx)
-
-        if voiceClient.source:
-            voiceClient.source.volume = vol / 100
-
-        player.volume = vol / 100
-        embed = discord.Embed(title="", description=f'**`{ctx.author}`** set the volume to **{vol}%**', color=discord.Color.green())
-        await ctx.send(embed=embed)
-'''
