@@ -65,7 +65,7 @@ class tradingCommands(commands.Cog):
             embed = discord.Embed(title=name, description=f'**{symbol} | ${price_usd} USD**'  , colour = discord.Colour.purple())
             embed.add_field(name=':bar_chart: Market Cap', value=f'${market_cap} USD', inline=True)
             embed.add_field(name=':watch: Volume (24h)', value=f'${volume} USD', inline=True)
-            embed.add_field(name=':ffig: Circulating Supply', value=f'{circulating_supply}', inline=True)
+            embed.add_field(name=':blue_circle: Circulating Supply', value=f'{circulating_supply}', inline=True)
             embed.add_field(name=':chart_with_upwards_trend: Total Supply', value=f'{total_supply}', inline=True)
             embed.add_field(name=':hourglass: Percent Change (24h)', value=f'{percent_change}%', inline=True)
             embed.set_thumbnail(url='https://cdn-icons.flaticon.com/png/512/4825/premium/4825565.png?token=exp=1649957841~hmac=ce544ffdff393fdfb59b7fa6b73d7d49') 
