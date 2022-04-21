@@ -1,0 +1,7 @@
+#Ignoring .env & config to protect discord token
+.env
+/.env
+*.env
+
+config.json
+*config
