@@ -15,7 +15,7 @@
 <h3 align="center">Icarus Bot</h3>
 
   <p align="center">
-    Icarus is a python based Discord chat bot that has multiple capabilities. The main intention was to gather real-time stock and crypto data such as pricing, charts, and cashflows. This bot is a work in progress with further optimization and features planned.
+    Icarus is a python based Discord chat bot that has multiple capabilities. The main intention was to gather real-time stock and crypto data such as pricing, charts, and cashflows. The bot also supports real-time music streaming via youtube-dl. This bot is a work in progress with further optimization and features planned.
     <br />
     <a href="https://github.com/mdastgheib/Icarus-Discord-Bot"><strong>Explore the docs »</strong></a>
     <br />
@@ -61,11 +61,9 @@
 
 
 ![!sPrice Command][stockPrice-screenshot]
-![!cPrice Command][cryptoPrice-screenshot]
-![!cashflow Command][cashflow-screenshot]
 
 
-Above are a few screenshots bot usages, the commands are seen within the screenshot alongside the data returned.
+Above is sample screenshot of bot usage, the command can be seen within the screenshot alongside the data returned.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -75,6 +73,10 @@ Above are a few screenshots bot usages, the commands are seen within the screens
 * [Python](https://www.python.org/)
 * [AlphaVantage](https://www.alphavantage.co/)
 * [CoinMarketCap](https://coinmarketcap.com/api/)
+* [YouTube-DL](https://youtube-dl.org/)
+* [Quoteable](https://quotable.io/random)
+* [Meme-API](https://meme-api.herokuapp.com/gimme)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -123,9 +125,32 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Utilize !help to view the entirety of the command list.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Current Trading Commands:
+- !stockPrice <ticker>
+- !cryptoPrice <ticker>
+- !cashflow <ticker>
+- !daily <ticker>
+- !weekly <ticker>
+- !monthly <ticker>
+- !conversion <currency> <currency>
+
+Current Music Commands:
+- !join
+- !play <url or search>
+- !pause or !stop
+- !leave
+  
+Current misc. commands:
+- !poll <question>, <option1>, <option2>, ...
+- !quote
+- !meme
+ 
+
+
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
