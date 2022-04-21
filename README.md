@@ -2,31 +2,29 @@
 <!-- PROJECT SHIELDS -->
 
 [![Forks][forks-shield]][forks-url]
-[![Issues][issues-shield]]["https://github.com/mdastgheib/Icarus-Discord-Bot/issues"]
-[![LinkedIn][linkedin-shield]]["https://www.linkedin.com/in/mdast/"]
-
-
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/mdastgheib/Icarus-Discord-Bot/">
-    <img src="images/logo.jpg" alt="Logo" width="80" height="80">
+    <img src="images/logo.jpg" alt="Logo" width="100" height="100">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Icarus Bot</h3>
 
   <p align="center">
-    project_description
+    Icarus is a python based Discord chat bot that has multiple capabilities. The main intention was to gather real-time stock and crypto data such as pricing, charts, and cashflows. This bot is a work in progress with further optimization and features planned.
     <br />
     <a href="https://github.com/mdastgheib/Icarus-Discord-Bot"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/mdastgheib/Icarus-Discord-Bot">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/mdastgheib/Icarus-Discord-Bot/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/mdastgheib/Icarus-Discord-Bot/issues">Request Feature</a>
   </p>
 </div>
 
@@ -170,9 +168,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Moses Dast - www.mdast.me - moses@mdast.me
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/mdastgheib/Icarus-Discord-Bot/](https://github.com/mdastgheib/Icarus-Discord-Bot/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -187,20 +185,12 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
+[forks-url]: https://github.com/mdastgheib/Icarus-Discord-Bot/
 [issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[issues-url]: https://github.com/mdastgheib/Icarus-Discord-Bot/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://www.linkedin.com/in/mdast
 [product-screenshot]: images/screenshot.png
