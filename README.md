@@ -71,6 +71,7 @@ Above is sample screenshot of bot usage, the command can be seen within the scre
 ### Built With
 
 * [Python](https://www.python.org/)
+* [Discord](https://discord.com/developers/docs/intro)
 * [AlphaVantage](https://www.alphavantage.co/)
 * [CoinMarketCap](https://coinmarketcap.com/api/)
 * [YouTube-DL](https://youtube-dl.org/)
